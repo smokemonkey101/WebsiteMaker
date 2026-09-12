@@ -67,6 +67,8 @@ nav a:hover, nav a:focus-visible, .header-link:hover, .header-link:focus-visible
 .eyebrow span { display: inline-block; width: .55rem; height: .55rem; margin-right: .5rem; border: 1px solid var(--violet-bright); border-radius: 50%; box-shadow: 0 0 16px var(--violet-bright); }
 h1, h2 { font-family: var(--serif); font-weight: 400; letter-spacing: -.045em; line-height: .98; text-wrap: balance; }
 h1 { max-width: 11ch; margin: 0; font-size: clamp(3.4rem, 6vw, 6.6rem); }
+.hero-subtitle { margin: .9rem 0 0; color: #d8d2e2; font-size: clamp(1.2rem, 2vw, 1.65rem); letter-spacing: -.02em; }
+.hero-subtitle strong { color: var(--text); }
 .hero-lede { max-width: 42rem; margin: 1.8rem 0 0; color: #b7b0c2; font-size: clamp(1rem, 1.5vw, 1.16rem); line-height: 1.75; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: .8rem; min-height: 3rem; padding: .7rem 1.05rem; border: 1px solid transparent; border-radius: .55rem; font-size: .9rem; font-weight: 700; transition: transform .2s ease, background .2s ease, border-color .2s ease; }
